@@ -9,13 +9,13 @@ import GameCodeGenerator from '../../tools/generator/GameCodeGenerator';
 import CardShuffler from '../../tools/generator/CardShuffler';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBldhn6e08q69OTNq246uskucmmKfUZjvs",
-    authDomain: "hanabi-64915.firebaseapp.com",
-    projectId: "hanabi-64915",
-    storageBucket: "hanabi-64915.appspot.com",
-    messagingSenderId: "653806150744",
-    appId: "1:653806150744:web:eedc14e49aae6d1852962d",
-    measurementId: "G-C72H5J6WQ9"
+    apiKey: APIKEY,
+    authDomain: AUTHDOMAIN,
+    projectId: PROJECTID,
+    storageBucket: STORAGEBUCKET,
+    messagingSenderId: MEASURINGSENDERID,
+    appId: ADPPID,
+    measurementId: MEASUREMENTId
 };
 
 firebase.initializeApp(firebaseConfig)
